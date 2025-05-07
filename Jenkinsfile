@@ -1,6 +1,6 @@
 node {
     
-    def registryProjet='docker.io/hawkitsu/'
+    def registryProjet='hawkitsu/'
     def IMAGE="${registryProjet}test:version-${env.BUILD_ID}"
     
     stage('Clone') {
